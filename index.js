@@ -21,15 +21,6 @@ app.use(morgan("tiny"));
 app.use(`${api_url}/products`, productRouter)
 
 
-mongoose
-  .connect(process.env.CONNNECTION_STRING)
-  .then(() => {
-    console.log("Database is successfully connected!!!");
-  })
-  .catch((err) => {
-    console.log("Database error ", err);
-  });
-
-app.listen(3001, () => {
+app.listen(3002, () => {
   console.log("Server is listening on the 3000 port");
 });
