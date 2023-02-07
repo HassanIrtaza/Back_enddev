@@ -4,7 +4,7 @@ os: linux
 
 files:
   - source: /
-    destination: cd /home/ubuntu/demoNodeProject
+    destination: /home/ubuntu/demoNodeProject
     overwrite: true
 
 permissions:
