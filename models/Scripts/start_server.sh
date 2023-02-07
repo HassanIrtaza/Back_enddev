@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /workingspace/node/parse-email/dist/src/app.js
+cd /home/ubuntu/
 systemctl restart nginx
 #npm start
 #pm2 start npm --name "myapp" -- start
