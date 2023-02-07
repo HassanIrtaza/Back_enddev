@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # navigate to app folder
-cd /workingspace/node
+cd /home/ubuntu
+curl -fsSL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
+bash /tmp/nodesource_setup.sh
+apt-get install -y nodejs
 # install node and np
 #npm install pm2 -g
