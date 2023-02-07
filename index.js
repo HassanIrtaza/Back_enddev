@@ -21,6 +21,6 @@ app.use(morgan("tiny"));
 app.use(`${api_url}/products`, productRouter)
 
 
-app.listen(3002, () => {
+app.listen(3003, () => {
   console.log("Server is listening on the 3000 port");
 });
