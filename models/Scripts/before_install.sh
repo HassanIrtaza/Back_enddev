@@ -1,6 +1,6 @@
 #!/bin/bash
 
 # navigate to app folder
-cd /workingspace/node
+cd /home/ubuntu
 # install node and np
 #npm install pm2 -g
