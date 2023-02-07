@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/index.js
+cd /home/ubuntu
 pm2 start index.js
 #npm start
 #pm2 start npm --name "myapp" -- start
