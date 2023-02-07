@@ -8,7 +8,7 @@ router.get(`/`, async (req, res) => {
   // const product = await Products.find({
   //   date: { $gt: new Date(startDate), $lt: new Date(endDate) },
   // });
-  const product = await Products.find();
+  const product = ["test1, test2"];
   if (!product) {
     res.status(500).json({ success: false });
   }
