@@ -16,21 +16,21 @@ permissions:
 hooks:
 
   ApplicationStop:
-    - location: Scripts/stop_server.sh     
+    - location: models/Scripts/stop_server.sh     
       timeout: 300
       runas: root
 
   BeforeInstall:
-    - location: Scripts/before_install.sh
+    - location: models/Scripts/before_install.sh
       timeout: 300
       runas: root
 
   AfterInstall:
-      - location: Scripts/after_install.sh
+      - location: models/Scripts/after_install.sh
         timeout: 1000
         runas: root
 
   ApplicationStart:
-    - location: Scripts/start_server.sh     
+    - location: models/Scripts/start_server.sh     
       timeout: 300
       runas: root
